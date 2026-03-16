@@ -60,6 +60,15 @@ const PROJECTS = [
     ],
   },
   {
+    name: "sylviarhud.com",
+    description: "Portfolio for painter & sculptor Sylvia Rhud — I manage her art career and built her website",
+    href: "https://sylviarhud.com/",
+    links: [
+      { label: "Instagram", href: "https://www.instagram.com/sylviarhud/" },
+      { label: "Singulart", href: "https://www.singulart.com/fr/artiste/sylvia-rhud-14407" },
+    ],
+  },
+  {
     name: "gaspard",
     description: "Lightweight DOM helpers without dependency",
     href: "https://github.com/lucaperret/gaspard",
