@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://lucaperret.ch"),
   title: "Luca Perret — Builder, Learner, Maker",
   description:
     "Swiss-based builder at the intersection of technology, knowledge management, and collaborative learning. Currently at Nespresso.",
@@ -31,6 +32,7 @@ export const metadata: Metadata = {
     description:
       "Builder at the intersection of technology, knowledge management, and collaborative learning.",
     creator: "@lucaperret",
+    site: "@lucaperret",
   },
 };
 
