@@ -35,9 +35,21 @@ const PROJECTS = [
     href: "https://github.com/lucaperret/agent-skills",
   },
   {
+    name: "Momentape",
+    description: "Web3 platform connecting artists and fans — 2x 1st prize at ETHGlobal Web3Jam",
+    href: "https://ethglobal.com/showcase/momentape-e0gce",
+    links: [
+      { label: "My tweet", href: "https://x.com/lucaperret/status/1463630794623270913" },
+      { label: "Livepeer tweet", href: "https://x.com/Livepeer/status/1463568282460561412" },
+    ],
+  },
+  {
     name: "Bibulus",
     description: "Find the nearest drinking fountain in Switzerland",
     href: "https://bibulus.ch/",
+    links: [
+      { label: "20 Minutes", href: "https://www.20min.ch/fr/story/l-app-pour-vous-desalterer-196971560259" },
+    ],
   },
   {
     name: "gaspard",
@@ -135,17 +147,31 @@ export default function Home() {
           Projects
         </h2>
         <div className="grid gap-4">
-          {PROJECTS.map(({ name, description, href }) => (
-            <a
+          {PROJECTS.map(({ name, description, href, links }) => (
+            <div
               key={name}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block border border-border rounded-lg p-4 hover:border-foreground/20 transition-colors"
+              className="border border-border rounded-lg p-4 hover:border-foreground/20 transition-colors"
             >
-              <h3 className="font-medium mb-1">{name}</h3>
-              <p className="text-sm text-muted">{description}</p>
-            </a>
+              <a href={href} target="_blank" rel="noopener noreferrer">
+                <h3 className="font-medium mb-1">{name}</h3>
+                <p className="text-sm text-muted">{description}</p>
+              </a>
+              {links && (
+                <div className="flex gap-3 mt-2">
+                  {links.map(({ label, href: linkHref }) => (
+                    <a
+                      key={label}
+                      href={linkHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-muted hover:text-foreground transition-colors underline underline-offset-2"
+                    >
+                      {label}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
           ))}
         </div>
       </section>
