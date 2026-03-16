@@ -30,6 +30,14 @@ const LINKS = [
 
 const PROJECTS = [
   {
+    name: "tidal-cli",
+    description: "Command-line tool for Tidal music streaming — search, play, and control your music from the terminal",
+    href: "https://tidal-cli.lucaperret.ch/",
+    links: [
+      { label: "GitHub", href: "https://github.com/lucaperret/tidal-cli" },
+    ],
+  },
+  {
     name: "agent-skills",
     description: "AI coding agent superpowers beyond code — starting with macOS Calendar",
     href: "https://github.com/lucaperret/agent-skills",
