@@ -35,6 +35,7 @@ const PROJECTS = [
     href: "https://tidal-cli.lucaperret.ch/",
     links: [
       { label: "GitHub", href: "https://github.com/lucaperret/tidal-cli" },
+      { label: "Smithery", href: "https://smithery.ai/servers/lucaperret/tidal" },
     ],
   },
   {
