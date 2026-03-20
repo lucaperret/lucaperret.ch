@@ -146,19 +146,19 @@ export default function Home() {
         <ul className="space-y-2 text-foreground/85">
           <li className="flex gap-2">
             <span aria-hidden="true" className="text-muted select-none">-</span>
-            Digital capability transformation at Nespresso (7 years and counting)
+            Knowledge Management Expert at Nespresso (7 years and counting)
           </li>
           <li className="flex gap-2">
             <span aria-hidden="true" className="text-muted select-none">-</span>
-            Building AI agent skills and workflows with Claude Code
+            Shipped tidal-cli — a CLI and MCP server for Tidal music streaming
+          </li>
+          <li className="flex gap-2">
+            <span aria-hidden="true" className="text-muted select-none">-</span>
+            Building AI agent skills for macOS, MCP servers, and connector publishing
           </li>
           <li className="flex gap-2">
             <span aria-hidden="true" className="text-muted select-none">-</span>
             Certified Front End Innovation Coach (Strategyzer)
-          </li>
-          <li className="flex gap-2">
-            <span aria-hidden="true" className="text-muted select-none">-</span>
-            Writing about knowledge management, AI, and the builder mindset
           </li>
         </ul>
       </section>

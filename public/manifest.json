@@ -1,0 +1,16 @@
+{
+  "name": "Luca Perret",
+  "short_name": "LP",
+  "description": "Swiss-based builder at the intersection of technology, knowledge management, and collaborative learning.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafaf9",
+  "theme_color": "#1c1917",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

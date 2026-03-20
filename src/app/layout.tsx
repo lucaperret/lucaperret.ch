@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://lucaperret.ch"),
+  manifest: "/manifest.json",
   alternates: {
     canonical: "https://lucaperret.ch",
   },
