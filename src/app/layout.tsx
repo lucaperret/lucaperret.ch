@@ -46,7 +46,7 @@ const jsonLd = {
   "@type": "Person",
   name: "Luca Perret",
   url: "https://lucaperret.ch",
-  jobTitle: "Digital Capability Transformation Lead",
+  jobTitle: "Knowledge Management Expert",
   worksFor: {
     "@type": "Organization",
     name: "Nespresso",

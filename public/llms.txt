@@ -4,9 +4,9 @@
 
 ## Background
 
-Luca Perret spent a decade as a full-stack developer building eCommerce platforms, open source tools, and side projects. He then moved into digital transformation, bringing a product mindset to how organizations learn, innovate, and share knowledge.
+Luca Perret spent a decade as a full-stack developer building eCommerce platforms, open source tools, and side projects. He then moved into digital capability transformation, bringing a product mindset to how organizations learn, innovate, and share knowledge.
 
-At Nespresso, he has worked for over 7 years across frontend innovation, eCommerce personalization, data strategy, and knowledge management. Today he helps experts co-create learning content, structures communities of practice, and coaches internal venture teams. He is a Certified Front End Innovation Coach (Strategyzer).
+At Nespresso, he has worked for over 7 years across frontend innovation, eCommerce personalization, data strategy, and knowledge management. As Knowledge Management Expert, he helps experts co-create learning content, structures communities of practice, and coaches internal venture teams. He is a Certified Front End Innovation Coach (Strategyzer).
 
 Outside work, he practices Wing Chun, builds AI agent tools, and manages his mother Sylvia Rhud's art career — she is a painter and sculptor whose work has been exhibited at the Beijing Biennale.
 
