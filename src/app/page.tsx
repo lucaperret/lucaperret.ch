@@ -78,10 +78,14 @@ const PROJECTS = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen px-6 py-16 md:py-24 max-w-2xl mx-auto">
+    <>
+      <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-foreground focus:text-background focus:rounded">
+        Skip to main content
+      </a>
+      <main id="main" className="min-h-screen px-6 py-16 md:py-24 max-w-2xl mx-auto">
       {/* Hero */}
-      <section className="mb-16">
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+      <section aria-labelledby="hero-heading" className="mb-16">
+        <h1 id="hero-heading" className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
           Luca Perret
         </h1>
         <p className="text-lg text-muted leading-relaxed mb-6">
@@ -90,7 +94,7 @@ export default function Home() {
           Currently driving digital capability transformation at{" "}
           <span className="text-foreground font-medium">Nespresso</span> in Vevey, Switzerland.
         </p>
-        <div className="flex gap-4">
+        <nav aria-label="Social links" className="flex gap-4">
           {LINKS.map(({ label, href, icon: Icon }) => (
             <a
               key={label}
@@ -103,12 +107,12 @@ export default function Home() {
               <Icon />
             </a>
           ))}
-        </div>
+        </nav>
       </section>
 
       {/* About */}
-      <section className="mb-16">
-        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
+      <section aria-labelledby="about-heading" className="mb-16">
+        <h2 id="about-heading" className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
           About
         </h2>
         <div className="space-y-4 text-foreground/85 leading-relaxed">
@@ -128,40 +132,40 @@ export default function Home() {
           </p>
           <p>
             Outside work, I practice Wing Chun, tinker with AI agents, and manage my
-            mother&apos;s art career — she&apos;s an exhibited sculptor whose work has
-            shown at the Beijing Biennale.
+            mother&apos;s art career — she&apos;s a painter and sculptor whose work has
+            been exhibited at the Beijing Biennale.
           </p>
         </div>
       </section>
 
       {/* Now */}
-      <section className="mb-16">
-        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
+      <section aria-labelledby="now-heading" className="mb-16">
+        <h2 id="now-heading" className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
           Now
         </h2>
         <ul className="space-y-2 text-foreground/85">
           <li className="flex gap-2">
-            <span className="text-muted select-none">-</span>
+            <span aria-hidden="true" className="text-muted select-none">-</span>
             Digital capability transformation at Nespresso (7 years and counting)
           </li>
           <li className="flex gap-2">
-            <span className="text-muted select-none">-</span>
+            <span aria-hidden="true" className="text-muted select-none">-</span>
             Building AI agent skills and workflows with Claude Code
           </li>
           <li className="flex gap-2">
-            <span className="text-muted select-none">-</span>
+            <span aria-hidden="true" className="text-muted select-none">-</span>
             Certified Front End Innovation Coach (Strategyzer)
           </li>
           <li className="flex gap-2">
-            <span className="text-muted select-none">-</span>
+            <span aria-hidden="true" className="text-muted select-none">-</span>
             Writing about knowledge management, AI, and the builder mindset
           </li>
         </ul>
       </section>
 
       {/* Projects */}
-      <section className="mb-16">
-        <h2 className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
+      <section aria-labelledby="projects-heading" className="mb-16">
+        <h2 id="projects-heading" className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
           Projects
         </h2>
         <div className="grid gap-4">
@@ -204,5 +208,6 @@ export default function Home() {
         </p>
       </footer>
     </main>
+    </>
   );
 }
