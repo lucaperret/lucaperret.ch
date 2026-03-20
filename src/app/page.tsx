@@ -39,7 +39,7 @@ const PROJECTS = [
   },
   {
     name: "agent-skills",
-    description: "AI coding agent superpowers beyond code — starting with macOS Calendar",
+    description: "Give AI coding agents superpowers beyond code — macOS native apps, MCP server deployment, and AI connector publishing",
     href: "https://github.com/lucaperret/agent-skills",
   },
   {
