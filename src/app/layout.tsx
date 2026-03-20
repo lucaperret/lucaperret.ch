@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://lucaperret.ch"),
+  alternates: {
+    canonical: "https://lucaperret.ch",
+  },
   title: "Luca Perret — Builder, Learner, Maker",
   description:
     "Swiss-based builder at the intersection of technology, knowledge management, and collaborative learning. Currently at Nespresso.",
@@ -38,6 +41,26 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Luca Perret",
+  url: "https://lucaperret.ch",
+  jobTitle: "Digital Capability Transformation",
+  worksFor: {
+    "@type": "Organization",
+    name: "Nespresso",
+  },
+  sameAs: [
+    "https://www.linkedin.com/in/lucaperret/",
+    "https://github.com/lucaperret",
+    "https://x.com/lucaperret",
+    "https://medium.com/@lucaperret",
+  ],
+  description:
+    "Swiss-based builder at the intersection of technology, knowledge management, and collaborative learning.",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -45,6 +68,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
