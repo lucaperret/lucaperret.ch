@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { GitHubIcon, LinkedInIcon, XIcon, MediumIcon, MailIcon } from "./icons";
+import { getAllPosts } from "@/lib/blog";
 
 const LINKS = [
   {
@@ -162,6 +164,38 @@ export default function Home() {
           </li>
         </ul>
       </section>
+
+      {/* Writing */}
+      {getAllPosts().length > 0 && (
+        <section aria-labelledby="writing-heading" className="mb-16">
+          <h2 id="writing-heading" className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
+            Writing
+          </h2>
+          <div className="grid gap-4">
+            {getAllPosts().slice(0, 3).map((post) => (
+              <Link key={post.slug} href={`/blog/${post.slug}`} className="group block">
+                <div className="border border-border rounded-lg p-4 hover:border-foreground/20 transition-colors">
+                  <time dateTime={post.date} className="text-xs text-muted font-mono">
+                    {new Date(post.date).toLocaleDateString("en-US", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}
+                  </time>
+                  <h3 className="font-medium mt-1 mb-1">{post.title}</h3>
+                  <p className="text-sm text-muted">{post.description}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <Link
+            href="/blog"
+            className="text-sm text-muted hover:text-foreground transition-colors mt-4 inline-block"
+          >
+            View all articles &rarr;
+          </Link>
+        </section>
+      )}
 
       {/* Projects */}
       <section aria-labelledby="projects-heading" className="mb-16">
