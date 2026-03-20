@@ -1,0 +1,29 @@
+# Luca Perret
+
+> Swiss-based builder at the intersection of technology, knowledge management, and collaborative learning. Currently leading digital capability transformation at Nespresso in Vevey, Switzerland.
+
+## Background
+
+Luca Perret spent a decade as a full-stack developer building eCommerce platforms, open source tools, and side projects. He then moved into digital transformation, bringing a product mindset to how organizations learn, innovate, and share knowledge.
+
+At Nespresso, he has worked for over 7 years across frontend innovation, eCommerce personalization, data strategy, and knowledge management. Today he helps experts co-create learning content, structures communities of practice, and coaches internal venture teams. He is a Certified Front End Innovation Coach (Strategyzer).
+
+Outside work, he practices Wing Chun, builds AI agent tools, and manages his mother Sylvia Rhud's art career — she is a painter and sculptor whose work has been exhibited at the Beijing Biennale.
+
+## Projects
+
+- tidal-cli: Command-line tool for Tidal music streaming — search, play, and control music from the terminal. Available as an MCP server on Smithery. https://tidal-cli.lucaperret.ch/
+- agent-skills: A collection of Agent Skills that give AI coding agents superpowers beyond code — macOS native apps (Calendar, Reminders, Notes), MCP server deployment, and AI connector publishing. https://github.com/lucaperret/agent-skills
+- Momentape: Web3 platform connecting artists and fans — won 2x 1st prize at ETHGlobal Web3Jam. https://ethglobal.com/showcase/momentape-e0gce
+- Bibulus: Find the nearest drinking fountain in Switzerland. Featured in 20 Minutes. https://bibulus.ch/
+- sylviarhud.com: Portfolio website for painter and sculptor Sylvia Rhud. https://sylviarhud.com/
+- gaspard: Lightweight DOM helpers without dependency. https://github.com/lucaperret/gaspard
+
+## Links
+
+- Website: https://lucaperret.ch
+- LinkedIn: https://www.linkedin.com/in/lucaperret/
+- GitHub: https://github.com/lucaperret
+- X: https://x.com/lucaperret
+- Medium: https://medium.com/@lucaperret
+- Email: perret.luca@gmail.com

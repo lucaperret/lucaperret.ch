@@ -46,11 +46,27 @@ const jsonLd = {
   "@type": "Person",
   name: "Luca Perret",
   url: "https://lucaperret.ch",
-  jobTitle: "Digital Capability Transformation",
+  jobTitle: "Digital Capability Transformation Lead",
   worksFor: {
     "@type": "Organization",
     name: "Nespresso",
+    url: "https://www.nespresso.com",
   },
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Vevey",
+    addressCountry: "CH",
+  },
+  knowsAbout: [
+    "Knowledge Management",
+    "Digital Transformation",
+    "Collaborative Learning",
+    "AI Agents",
+    "Full-Stack Development",
+    "Innovation Coaching",
+    "eCommerce",
+    "Open Source",
+  ],
   sameAs: [
     "https://www.linkedin.com/in/lucaperret/",
     "https://github.com/lucaperret",
@@ -58,7 +74,7 @@ const jsonLd = {
     "https://medium.com/@lucaperret",
   ],
   description:
-    "Swiss-based builder at the intersection of technology, knowledge management, and collaborative learning.",
+    "Swiss-based builder at the intersection of technology, knowledge management, and collaborative learning. Former full-stack developer with 10 years of experience, now leading digital capability transformation at Nespresso. Certified Front End Innovation Coach (Strategyzer). Open source contributor and AI agent builder.",
 };
 
 export default function RootLayout({

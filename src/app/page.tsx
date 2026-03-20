@@ -195,9 +195,12 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="pt-8 border-t border-border">
+      <footer className="pt-8 border-t border-border flex justify-between items-center">
         <p className="text-sm text-muted">
           Vevey, Switzerland
+        </p>
+        <p className="text-xs text-muted/60">
+          Last updated March 2026
         </p>
       </footer>
     </main>
