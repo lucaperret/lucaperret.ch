@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "How lucaperret.ch handles your data — no cookies, no tracking, no personal data collected. Uses Vercel Analytics for anonymous page views.",
     url: "https://lucaperret.ch/privacy",
     type: "website",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Luca Perret" }],
   },
 };
 
@@ -66,6 +67,12 @@ export default function PrivacyPage() {
             referrers, and browser/OS type. No personally identifiable
             information is collected, and no cookies are used.
           </p>
+          <p className="mt-3">
+            Specifically, Vercel Analytics does not collect IP addresses, does
+            not use device fingerprinting, and does not perform any cross-site
+            tracking. The data is aggregated and cannot be used to identify
+            individual visitors.
+          </p>
         </section>
 
         <section>
@@ -82,15 +89,21 @@ export default function PrivacyPage() {
             >
               Vercel Speed Insights
             </a>{" "}
-            to measure web vitals (loading time, interactivity, layout
-            stability). This data is anonymous and used solely to keep the site
-            fast.
+            to measure Core Web Vitals — specifically Largest Contentful Paint
+            (loading time), First Input Delay (interactivity), and Cumulative
+            Layout Shift (visual stability). This data is anonymous, aggregated
+            across all visitors, and used solely to keep the site fast and
+            responsive.
           </p>
         </section>
 
         <section>
           <h2 className="text-lg font-semibold mb-2">Cookies</h2>
-          <p>This site does not use cookies.</p>
+          <p>
+            This site does not use cookies of any kind — no session cookies, no
+            authentication cookies, no advertising cookies, and no third-party
+            cookies. Your browser will not receive any cookie from this site.
+          </p>
         </section>
 
         <section>
@@ -98,6 +111,33 @@ export default function PrivacyPage() {
           <p>
             There are no third-party trackers, advertising scripts, or social
             media pixels on this site.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-semibold mb-2">External links</h2>
+          <p>
+            This site contains links to external websites (LinkedIn, GitHub, etc.)
+            that have their own privacy policies. I am not responsible for the
+            content or privacy practices of those sites.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-semibold mb-2">Your rights</h2>
+          <p>
+            Since this site does not collect personal data, there is nothing to
+            request, correct, or delete. If you have any concerns or questions,
+            you are welcome to contact me.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-semibold mb-2">Changes to this policy</h2>
+          <p>
+            This policy may be updated from time to time. Any changes will be
+            reflected on this page with an updated date. No prior notification
+            will be sent, as no contact information is collected.
           </p>
         </section>
 

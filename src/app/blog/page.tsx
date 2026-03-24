@@ -15,6 +15,7 @@ export const metadata: Metadata = {
       "Articles and insights on AI agents, knowledge management, open source tools, digital transformation, and the builder mindset — by Luca Perret.",
     url: "https://lucaperret.ch/blog",
     type: "website",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Luca Perret" }],
   },
 };
 
@@ -37,8 +38,71 @@ export default function BlogPage() {
         >
           Blog
         </h1>
-        <p className="text-muted mb-12">
+        <p className="text-muted mb-6">
           Writing about AI agents, knowledge management, and building things.
+        </p>
+        <p className="text-foreground/85 leading-relaxed mb-6">
+          This is where I share what I&apos;m learning and building — from
+          shipping open source tools and MCP servers, to navigating knowledge
+          management in a large organization, to the lessons that come from
+          building side projects in public. I write for builders, learners, and
+          anyone curious about what happens when technology meets human
+          collaboration.
+        </p>
+
+        <div className="mb-12">
+          <h2 className="text-lg font-semibold mb-3">What to expect</h2>
+          <ul className="space-y-2 text-foreground/85">
+            <li className="flex gap-2">
+              <span aria-hidden="true" className="text-muted select-none">-</span>
+              AI agents and MCP servers — building, shipping, and integrating them into real workflows
+            </li>
+            <li className="flex gap-2">
+              <span aria-hidden="true" className="text-muted select-none">-</span>
+              Knowledge management in large organizations — communities of practice, peer learning, and expertise sharing
+            </li>
+            <li className="flex gap-2">
+              <span aria-hidden="true" className="text-muted select-none">-</span>
+              Open source tools — from idea to launch, what works and what doesn&apos;t
+            </li>
+            <li className="flex gap-2">
+              <span aria-hidden="true" className="text-muted select-none">-</span>
+              Lessons from side projects — tidal-cli, agent-skills, and everything in between
+            </li>
+            <li className="flex gap-2">
+              <span aria-hidden="true" className="text-muted select-none">-</span>
+              Digital transformation insights — bridging the gap between technology and how people actually work
+            </li>
+          </ul>
+        </div>
+
+        <p className="text-foreground/85 leading-relaxed mb-12">
+          Want to stay updated? Subscribe via{" "}
+          <a
+            href="/feed.xml"
+            className="underline underline-offset-2 hover:text-foreground transition-colors"
+          >
+            RSS feed
+          </a>
+          , or follow me on{" "}
+          <a
+            href="https://x.com/lucaperret"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-foreground transition-colors"
+          >
+            X
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://www.linkedin.com/in/lucaperret/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-foreground transition-colors"
+          >
+            LinkedIn
+          </a>
+          .
         </p>
 
         {posts.length === 0 ? (

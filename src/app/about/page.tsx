@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Swiss-based builder at the intersection of technology, knowledge management, and collaborative learning.",
     url: "https://lucaperret.ch/about",
     type: "website",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Luca Perret" }],
   },
 };
 
@@ -40,9 +41,11 @@ export default function AboutPage() {
 
         <p>
           I spent a decade as a full-stack developer — building eCommerce
-          platforms, open source tools, and shipping side projects. Then I moved
-          into digital transformation, where I bring a product mindset to how
-          organizations learn, innovate, and share knowledge.
+          platforms, open source tools, and shipping side projects. My approach
+          has always been the same: ship early, learn fast, and iterate based on
+          real feedback. Then I moved into digital transformation, where I bring
+          a product mindset to how organizations learn, innovate, and share
+          knowledge.
         </p>
 
         <p>
@@ -57,8 +60,9 @@ export default function AboutPage() {
           </a>
           , I&apos;ve worn several hats over 7+ years — from frontend innovation
           and eCommerce personalization to data strategy and now knowledge
-          management. Today I help experts co-create learning content, structure
-          communities of practice, and coach internal venture teams. I&apos;m a
+          management. Today I design peer learning programs, connect people across
+          departments and geographies, help experts co-create learning content,
+          and coach internal venture teams using innovation frameworks. I&apos;m a
           certified Front End Innovation Coach (Strategyzer).
         </p>
 
@@ -93,9 +97,11 @@ export default function AboutPage() {
         </p>
 
         <p>
-          Outside work, I practice Wing Chun, tinker with AI agents, and manage
-          my mother&apos;s art career — she&apos;s a painter and sculptor whose
-          work has been exhibited at the Beijing Biennale. You can see her
+          Outside work, I practice Wing Chun — a martial art that rewards
+          patience, structure, and economy of movement. I also tinker with AI
+          agents and manage my mother&apos;s art career — she&apos;s a painter
+          and sculptor whose work has been exhibited at the Beijing Biennale and
+          sold internationally. You can see her
           portfolio at{" "}
           <a
             href="https://sylviarhud.com/"

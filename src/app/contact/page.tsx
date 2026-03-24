@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Reach out to Luca Perret via email or social media. Based in Vevey, Switzerland.",
     url: "https://lucaperret.ch/contact",
     type: "website",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Luca Perret" }],
   },
 };
 
@@ -35,7 +36,7 @@ export default function ContactPage() {
         <p>
           The best way to reach me is by email. I&apos;m always open to
           conversations about technology, knowledge management, AI agents, or
-          collaboration opportunities.
+          collaboration opportunities. I typically respond within a few days.
         </p>
 
         <div className="space-y-3">
@@ -91,6 +92,56 @@ export default function ContactPage() {
         </div>
 
         <p className="text-muted text-sm">Vevey, Switzerland</p>
+      </div>
+
+      <div className="space-y-6 text-foreground/85 leading-relaxed mt-12">
+        <div>
+          <h2 className="text-lg font-semibold mb-3">What I&apos;m open to</h2>
+          <ul className="space-y-2">
+            <li className="flex gap-2">
+              <span aria-hidden="true" className="text-muted select-none">-</span>
+              Open source collaboration — especially around AI agents, MCP servers, and developer tools
+            </li>
+            <li className="flex gap-2">
+              <span aria-hidden="true" className="text-muted select-none">-</span>
+              Knowledge management conversations — how teams learn, share, and retain expertise
+            </li>
+            <li className="flex gap-2">
+              <span aria-hidden="true" className="text-muted select-none">-</span>
+              Speaking about digital transformation, innovation coaching, or building in public
+            </li>
+            <li className="flex gap-2">
+              <span aria-hidden="true" className="text-muted select-none">-</span>
+              Side project ideas — I enjoy building tools that solve real problems
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 className="text-lg font-semibold mb-3">Common questions</h2>
+          <div className="space-y-4">
+            <div>
+              <p className="font-medium">Where are you based?</p>
+              <p className="text-muted">
+                Vevey, Switzerland — on the shores of Lake Geneva, between Lausanne and Montreux.
+              </p>
+            </div>
+            <div>
+              <p className="font-medium">Do you freelance?</p>
+              <p className="text-muted">
+                Not currently. I&apos;m full-time at Nespresso, but I&apos;m always happy to
+                collaborate on open source projects or exchange ideas.
+              </p>
+            </div>
+            <div>
+              <p className="font-medium">What&apos;s the best way to reach you?</p>
+              <p className="text-muted">
+                Email works best. For quick messages, you can also reach me on X or LinkedIn.
+                I typically respond within a few days.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <footer className="pt-8 mt-16 border-t border-border flex justify-between items-center">

@@ -3,7 +3,7 @@
 :root {
   --background: #fafaf9;
   --foreground: #1c1917;
-  --muted: #78716c;
+  --muted: #57534e;
   --accent: #0c0a09;
   --border: #e7e5e4;
 }
@@ -22,7 +22,7 @@
   :root {
     --background: #0c0a09;
     --foreground: #fafaf9;
-    --muted: #a8a29e;
+    --muted: #b8b4af;
     --accent: #fafaf9;
     --border: #292524;
   }

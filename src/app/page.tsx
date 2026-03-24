@@ -33,7 +33,7 @@ const LINKS = [
 const PROJECTS = [
   {
     name: "tidal-cli",
-    description: "Command-line tool for Tidal music streaming — search, play, and control your music from the terminal",
+    description: "Command-line tool and MCP server for Tidal music streaming — search, play, and control your music from the terminal or through AI agents",
     href: "https://tidal-cli.lucaperret.ch/",
     links: [
       { label: "GitHub", href: "https://github.com/lucaperret/tidal-cli" },
@@ -47,7 +47,7 @@ const PROJECTS = [
   },
   {
     name: "Momentape",
-    description: "Web3 platform connecting artists and fans — 2x 1st prize at ETHGlobal Web3Jam",
+    description: "Web3 platform connecting artists and fans through live video and NFTs — 2x 1st prize at ETHGlobal Web3Jam",
     href: "https://ethglobal.com/showcase/momentape-e0gce",
     links: [
       { label: "My tweet", href: "https://x.com/lucaperret/status/1463630794623270913" },
@@ -56,7 +56,7 @@ const PROJECTS = [
   },
   {
     name: "Bibulus",
-    description: "Find the nearest drinking fountain in Switzerland",
+    description: "Find the nearest drinking fountain in Switzerland — featured in 20 Minutes",
     href: "https://bibulus.ch/",
     links: [
       { label: "20 Minutes", href: "https://www.20min.ch/fr/story/l-app-pour-vous-desalterer-196971560259" },
@@ -177,6 +177,10 @@ export default function Home() {
           <li className="flex gap-2">
             <span aria-hidden="true" className="text-muted select-none">-</span>
             Certified Front End Innovation Coach (Strategyzer)
+          </li>
+          <li className="flex gap-2">
+            <span aria-hidden="true" className="text-muted select-none">-</span>
+            Exploring how AI agents can accelerate knowledge sharing inside large organizations
           </li>
         </ul>
       </section>
