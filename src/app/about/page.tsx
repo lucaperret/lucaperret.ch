@@ -69,7 +69,9 @@ export default function AboutPage() {
         <p>
           I believe the real advantage in the AI era won&apos;t be access to
           information — it will be our ability to learn together and keep
-          knowledge alive.
+          knowledge alive. The organizations that thrive will be the ones where
+          people share what they know, learn from each other, and build on
+          collective intelligence rather than individual expertise alone.
         </p>
 
         <p>
@@ -93,7 +95,9 @@ export default function AboutPage() {
             agent-skills
           </a>{" "}
           (AI agent superpowers for macOS, MCP servers, and connector
-          publishing).
+          publishing). I&apos;m particularly interested in how AI agents can
+          augment knowledge workers and make expertise more accessible across
+          organizations.
         </p>
 
         <p>

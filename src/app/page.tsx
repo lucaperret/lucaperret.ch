@@ -42,7 +42,7 @@ const PROJECTS = [
   },
   {
     name: "agent-skills",
-    description: "Give AI coding agents superpowers beyond code — macOS native apps, MCP server deployment, and AI connector publishing",
+    description: "Give AI coding agents superpowers beyond code — deploy MCP servers, publish AI connectors, build macOS native apps, and automate complex workflows",
     href: "https://github.com/lucaperret/agent-skills",
   },
   {
@@ -73,7 +73,7 @@ const PROJECTS = [
   },
   {
     name: "gaspard",
-    description: "Lightweight DOM helpers without dependency",
+    description: "Lightweight DOM helpers without dependency — a zero-dependency alternative to jQuery for modern browsers",
     href: "https://github.com/lucaperret/gaspard",
   },
 ];

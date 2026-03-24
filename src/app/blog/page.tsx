@@ -47,7 +47,10 @@ export default function BlogPage() {
           management in a large organization, to the lessons that come from
           building side projects in public. I write for builders, learners, and
           anyone curious about what happens when technology meets human
-          collaboration.
+          collaboration. Every article comes from real experience: problems I
+          encountered, solutions I found, and decisions I made along the way.
+          I try to be honest about what works, what doesn&apos;t, and what I&apos;m
+          still figuring out.
         </p>
 
         <div className="mb-12">
@@ -73,11 +76,17 @@ export default function BlogPage() {
               <span aria-hidden="true" className="text-muted select-none">-</span>
               Digital transformation insights — bridging the gap between technology and how people actually work
             </li>
+            <li className="flex gap-2">
+              <span aria-hidden="true" className="text-muted select-none">-</span>
+              The builder mindset — shipping fast, learning in public, and staying curious across domains
+            </li>
           </ul>
         </div>
 
         <p className="text-foreground/85 leading-relaxed mb-12">
-          Want to stay updated? Subscribe via{" "}
+          New articles are published when I have something worth sharing, not
+          on a fixed schedule. Quality over quantity. Want to stay updated?
+          Subscribe via{" "}
           <a
             href="/feed.xml"
             className="underline underline-offset-2 hover:text-foreground transition-colors"

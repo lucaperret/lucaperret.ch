@@ -36,7 +36,9 @@ export default function ContactPage() {
         <p>
           The best way to reach me is by email. I&apos;m always open to
           conversations about technology, knowledge management, AI agents, or
-          collaboration opportunities. I typically respond within a few days.
+          collaboration opportunities. Whether you want to discuss an open source
+          project, share ideas about how organizations learn, or just say hello —
+          I&apos;d love to hear from you. I typically respond within a few days.
         </p>
 
         <div className="space-y-3">
@@ -100,19 +102,19 @@ export default function ContactPage() {
           <ul className="space-y-2">
             <li className="flex gap-2">
               <span aria-hidden="true" className="text-muted select-none">-</span>
-              Open source collaboration — especially around AI agents, MCP servers, and developer tools
+              Open source collaboration — especially around AI agents, MCP servers, developer tools, and CLI applications
             </li>
             <li className="flex gap-2">
               <span aria-hidden="true" className="text-muted select-none">-</span>
-              Knowledge management conversations — how teams learn, share, and retain expertise
+              Knowledge management conversations — how teams learn, share, and retain expertise in large organizations
             </li>
             <li className="flex gap-2">
               <span aria-hidden="true" className="text-muted select-none">-</span>
-              Speaking about digital transformation, innovation coaching, or building in public
+              Speaking about digital transformation, innovation coaching, building in public, or the intersection of AI and knowledge work
             </li>
             <li className="flex gap-2">
               <span aria-hidden="true" className="text-muted select-none">-</span>
-              Side project ideas — I enjoy building tools that solve real problems
+              Side project ideas — I enjoy building tools that solve real problems and learning from other makers
             </li>
           </ul>
         </div>
@@ -123,21 +125,24 @@ export default function ContactPage() {
             <div>
               <p className="font-medium">Where are you based?</p>
               <p className="text-muted">
-                Vevey, Switzerland — on the shores of Lake Geneva, between Lausanne and Montreux.
+                Vevey, Switzerland — on the shores of Lake Geneva, between Lausanne and Montreux. I work on-site at Nespresso headquarters and remotely on my open source projects.
               </p>
             </div>
             <div>
               <p className="font-medium">Do you freelance?</p>
               <p className="text-muted">
-                Not currently. I&apos;m full-time at Nespresso, but I&apos;m always happy to
-                collaborate on open source projects or exchange ideas.
+                Not currently. I&apos;m full-time at Nespresso as a Knowledge Management
+                Expert, but I&apos;m always happy to collaborate on open source projects,
+                contribute to interesting tools, or exchange ideas over email.
               </p>
             </div>
             <div>
               <p className="font-medium">What&apos;s the best way to reach you?</p>
               <p className="text-muted">
-                Email works best. For quick messages, you can also reach me on X or LinkedIn.
-                I typically respond within a few days.
+                Email works best for anything substantial. For quick messages or sharing
+                links, you can also reach me on X or LinkedIn. I read everything and
+                typically respond within a few days — sometimes faster if you catch my
+                interest.
               </p>
             </div>
           </div>
