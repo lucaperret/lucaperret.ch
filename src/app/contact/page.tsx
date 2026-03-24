@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Contact Luca Perret — Get in Touch",
   description:
-    "Reach out to Luca Perret via email or social media. Based in Vevey, Switzerland — open to conversations about technology, knowledge management, and collaboration.",
+    "Get in touch with Luca Perret — email, LinkedIn, GitHub, and X. Based in Vevey, Switzerland.",
   alternates: {
     canonical: "https://lucaperret.ch/contact",
   },
@@ -92,6 +92,21 @@ export default function ContactPage() {
 
         <p className="text-muted text-sm">Vevey, Switzerland</p>
       </div>
+
+      <footer className="pt-8 mt-16 border-t border-border flex justify-between items-center">
+        <Link
+          href="/about"
+          className="text-sm text-muted hover:text-foreground transition-colors"
+        >
+          &larr; About
+        </Link>
+        <Link
+          href="/privacy"
+          className="text-xs text-muted/60 hover:text-foreground transition-colors"
+        >
+          Privacy
+        </Link>
+      </footer>
     </main>
   );
 }

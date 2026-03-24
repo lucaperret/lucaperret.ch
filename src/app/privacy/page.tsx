@@ -2,16 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Luca Perret",
+  title: "Privacy Policy — Data Collection and Your Rights | Luca Perret",
   description:
-    "Privacy policy for lucaperret.ch — what data is collected, how it is used, and your rights.",
+    "How lucaperret.ch handles your data — no cookies, no tracking, no personal data collected. Uses Vercel Analytics for anonymous page views.",
   alternates: {
     canonical: "https://lucaperret.ch/privacy",
   },
   openGraph: {
-    title: "Privacy Policy — Luca Perret",
+    title: "Privacy Policy — Data Collection and Your Rights | Luca Perret",
     description:
-      "Privacy policy for lucaperret.ch — what data is collected, how it is used, and your rights.",
+      "How lucaperret.ch handles your data — no cookies, no tracking, no personal data collected. Uses Vercel Analytics for anonymous page views.",
     url: "https://lucaperret.ch/privacy",
     type: "website",
   },
@@ -116,6 +116,21 @@ export default function PrivacyPage() {
           </p>
         </section>
       </div>
+
+      <footer className="pt-8 mt-16 border-t border-border flex justify-between items-center">
+        <Link
+          href="/"
+          className="text-sm text-muted hover:text-foreground transition-colors"
+        >
+          &larr; Home
+        </Link>
+        <Link
+          href="/contact"
+          className="text-xs text-muted/60 hover:text-foreground transition-colors"
+        >
+          Contact
+        </Link>
+      </footer>
     </main>
   );
 }

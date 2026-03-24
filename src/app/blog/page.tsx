@@ -3,14 +3,14 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog — AI Agents, Knowledge Management & Building Things | Luca Perret",
+  title: "Blog — AI Agents, Knowledge Management & More | Luca Perret",
   description:
     "Articles and insights on AI agents, knowledge management, open source tools, digital transformation, and the builder mindset — by Luca Perret.",
   alternates: {
     canonical: "https://lucaperret.ch/blog",
   },
   openGraph: {
-    title: "Blog — AI Agents, Knowledge Management & Building Things | Luca Perret",
+    title: "Blog — AI Agents, Knowledge Management & More | Luca Perret",
     description:
       "Articles and insights on AI agents, knowledge management, open source tools, digital transformation, and the builder mindset — by Luca Perret.",
     url: "https://lucaperret.ch/blog",

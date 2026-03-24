@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Luca Perret — Builder, Knowledge Management Expert",
   description:
-    "Swiss-based builder at the intersection of technology, knowledge management, and collaborative learning. Knowledge Management Expert at Nespresso with a decade of full-stack development experience.",
+    "Knowledge Management Expert at Nespresso. Former full-stack developer turned digital transformation builder in Vevey, Switzerland.",
   alternates: {
     canonical: "https://lucaperret.ch/about",
   },
@@ -117,6 +117,21 @@ export default function AboutPage() {
           </Link>
         </p>
       </div>
+
+      <footer className="pt-8 mt-16 border-t border-border flex justify-between items-center">
+        <Link
+          href="/contact"
+          className="text-sm text-muted hover:text-foreground transition-colors"
+        >
+          Contact &rarr;
+        </Link>
+        <Link
+          href="/privacy"
+          className="text-xs text-muted/60 hover:text-foreground transition-colors"
+        >
+          Privacy
+        </Link>
+      </footer>
     </main>
   );
 }
