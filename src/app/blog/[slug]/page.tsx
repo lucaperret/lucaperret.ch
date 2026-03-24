@@ -90,9 +90,15 @@ export default async function BlogPostPage({
                 day: "numeric",
               })}
             </time>
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tight mt-2 mb-4">
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tight mt-2 mb-2">
               {post.title}
             </h1>
+            <p className="text-sm text-muted mb-4">
+              By{" "}
+              <a href="https://lucaperret.ch" className="hover:text-foreground transition-colors">
+                Luca Perret
+              </a>
+            </p>
             {post.tags.length > 0 && (
               <div className="flex gap-2">
                 {post.tags.map((tag) => (

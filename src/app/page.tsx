@@ -112,6 +112,22 @@ export default function Home() {
         </nav>
       </section>
 
+      {/* Navigation */}
+      <nav aria-label="Page sections" className="flex gap-4 mb-16 text-sm">
+        <Link href="/blog" className="text-muted hover:text-foreground transition-colors">
+          Blog
+        </Link>
+        <a href="#projects-heading" className="text-muted hover:text-foreground transition-colors">
+          Projects
+        </a>
+        <Link href="/about" className="text-muted hover:text-foreground transition-colors">
+          About
+        </Link>
+        <Link href="/contact" className="text-muted hover:text-foreground transition-colors">
+          Contact
+        </Link>
+      </nav>
+
       {/* About */}
       <section aria-labelledby="about-heading" className="mb-16">
         <h2 id="about-heading" className="text-sm font-mono uppercase tracking-widest text-muted mb-4">
@@ -237,6 +253,9 @@ export default function Home() {
         <p className="text-sm text-muted">
           Vevey, Switzerland
         </p>
+        <Link href="/privacy" className="text-xs text-muted/60 hover:text-foreground transition-colors">
+          Privacy
+        </Link>
         <p className="text-xs text-muted/60">
           Last updated March 2026
         </p>

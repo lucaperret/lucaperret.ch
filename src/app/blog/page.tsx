@@ -3,11 +3,18 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog — Luca Perret",
+  title: "Blog — AI Agents, Knowledge Management & Building Things | Luca Perret",
   description:
-    "Articles about AI agents, knowledge management, open source tools, and the builder mindset.",
+    "Articles and insights on AI agents, knowledge management, open source tools, digital transformation, and the builder mindset — by Luca Perret.",
   alternates: {
     canonical: "https://lucaperret.ch/blog",
+  },
+  openGraph: {
+    title: "Blog — AI Agents, Knowledge Management & Building Things | Luca Perret",
+    description:
+      "Articles and insights on AI agents, knowledge management, open source tools, digital transformation, and the builder mindset — by Luca Perret.",
+    url: "https://lucaperret.ch/blog",
+    type: "website",
   },
 };
 
@@ -75,6 +82,21 @@ export default function BlogPage() {
           </div>
         )}
       </section>
+
+      <footer className="pt-8 mt-16 border-t border-border flex justify-between items-center">
+        <Link
+          href="/"
+          className="text-sm text-muted hover:text-foreground transition-colors"
+        >
+          &larr; Home
+        </Link>
+        <Link
+          href="/privacy"
+          className="text-xs text-muted/60 hover:text-foreground transition-colors"
+        >
+          Privacy
+        </Link>
+      </footer>
     </main>
   );
 }
