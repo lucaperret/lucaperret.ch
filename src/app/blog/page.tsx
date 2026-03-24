@@ -50,7 +50,11 @@ export default function BlogPage() {
           collaboration. Every article comes from real experience: problems I
           encountered, solutions I found, and decisions I made along the way.
           I try to be honest about what works, what doesn&apos;t, and what I&apos;m
-          still figuring out.
+          still figuring out. Whether it&apos;s a deep dive into building a CLI
+          tool from scratch, reflections on how large organizations can learn
+          faster, or practical guides on shipping MCP servers — the goal is
+          always to share something genuinely useful that you can take away
+          and apply to your own work.
         </p>
 
         <div className="mb-12">

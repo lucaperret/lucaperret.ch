@@ -36,8 +36,8 @@ export default function ContactPage() {
         <p>
           The best way to reach me is by email. I&apos;m always open to
           conversations about technology, knowledge management, AI agents, or
-          collaboration opportunities. Whether you want to discuss an open source
-          project, share ideas about how organizations learn, or just say hello —
+          collaboration opportunities. Whether you want to discuss a project,
+          share ideas about how organizations learn, or just say hello —
           I&apos;d love to hear from you. I typically respond within a few days.
         </p>
 
@@ -102,7 +102,7 @@ export default function ContactPage() {
           <ul className="space-y-2">
             <li className="flex gap-2">
               <span aria-hidden="true" className="text-muted select-none">-</span>
-              Open source collaboration — especially around AI agents, MCP servers, developer tools, and CLI applications
+              Collaborating on AI agents, MCP servers, developer tools, and CLI applications
             </li>
             <li className="flex gap-2">
               <span aria-hidden="true" className="text-muted select-none">-</span>
@@ -114,7 +114,7 @@ export default function ContactPage() {
             </li>
             <li className="flex gap-2">
               <span aria-hidden="true" className="text-muted select-none">-</span>
-              Side project ideas — I enjoy building tools that solve real problems and learning from other makers
+              Side project ideas — I enjoy building tools that solve real problems and exchanging notes with other makers and builders
             </li>
           </ul>
         </div>
@@ -132,8 +132,9 @@ export default function ContactPage() {
               <p className="font-medium">Do you freelance?</p>
               <p className="text-muted">
                 Not currently. I&apos;m full-time at Nespresso as a Knowledge Management
-                Expert, but I&apos;m always happy to collaborate on open source projects,
-                contribute to interesting tools, or exchange ideas over email.
+                Expert, but I&apos;m always happy to collaborate on projects, contribute
+                to interesting tools, or exchange ideas over email. If you have something
+                specific in mind, reach out and let&apos;s talk about it.
               </p>
             </div>
             <div>
