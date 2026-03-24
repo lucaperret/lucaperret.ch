@@ -108,12 +108,18 @@ export default function AboutPage() {
           .
         </p>
 
-        <p>
+        <p className="flex gap-4">
           <Link
             href="/"
             className="underline underline-offset-2 hover:text-foreground transition-colors"
           >
             See my projects &rarr;
+          </Link>
+          <Link
+            href="/blog"
+            className="underline underline-offset-2 hover:text-foreground transition-colors"
+          >
+            Read my blog &rarr;
           </Link>
         </p>
       </div>

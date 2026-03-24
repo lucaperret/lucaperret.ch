@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Data Collection and Your Rights | Luca Perret",
+  title: "Privacy Policy — No Cookies, No Tracking | Luca Perret",
   description:
     "How lucaperret.ch handles your data — no cookies, no tracking, no personal data collected. Uses Vercel Analytics for anonymous page views.",
   alternates: {
     canonical: "https://lucaperret.ch/privacy",
   },
   openGraph: {
-    title: "Privacy Policy — Data Collection and Your Rights | Luca Perret",
+    title: "Privacy Policy — No Cookies, No Tracking | Luca Perret",
     description:
       "How lucaperret.ch handles your data — no cookies, no tracking, no personal data collected. Uses Vercel Analytics for anonymous page views.",
     url: "https://lucaperret.ch/privacy",

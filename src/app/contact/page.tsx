@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Contact Luca Perret — Get in Touch",
   description:
-    "Get in touch with Luca Perret — email, LinkedIn, GitHub, and X. Based in Vevey, Switzerland.",
+    "Get in touch with Luca Perret via email, LinkedIn, GitHub, or X. Based in Vevey, Switzerland. Open to conversations about technology and collaboration.",
   alternates: {
     canonical: "https://lucaperret.ch/contact",
   },
