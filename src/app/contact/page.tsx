@@ -125,16 +125,17 @@ export default function ContactPage() {
             <div>
               <p className="font-medium">Where are you based?</p>
               <p className="text-muted">
-                Vevey, Switzerland — on the shores of Lake Geneva, between Lausanne and Montreux. I work on-site at Nespresso headquarters and remotely on my open source projects.
+                Vevey, Switzerland — on the shores of Lake Geneva, between Lausanne and Montreux. I work from here, on the road across French-speaking Switzerland for EnÉquipe, and remotely on my open source projects.
               </p>
             </div>
             <div>
               <p className="font-medium">Do you freelance?</p>
               <p className="text-muted">
-                Not currently. I&apos;m full-time at Nespresso as a Knowledge Management
-                Expert, but I&apos;m always happy to collaborate on projects, contribute
-                to interesting tools, or exchange ideas over email. If you have something
-                specific in mind, reach out and let&apos;s talk about it.
+                I&apos;m not looking for assignments — my own ventures take most of my
+                time. That said, I do look at projects that genuinely interest me, and
+                I&apos;m always happy to collaborate, contribute to good tools, or
+                exchange ideas over email. If you have something specific in mind, reach
+                out and let&apos;s talk about it.
               </p>
             </div>
             <div>

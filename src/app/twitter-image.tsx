@@ -56,7 +56,7 @@ export default function TwitterImage() {
             maxWidth: "800px",
           }}
         >
-          Builder at the intersection of technology, knowledge management, and digital transformation.
+          Builder at the intersection of technology, product, and things I ship myself.
         </div>
         <div
           style={{

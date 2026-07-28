@@ -20,13 +20,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://lucaperret.ch",
   },
-  title: "Luca Perret — Builder, Learner, Maker",
+  title: "Luca Perret — Builder, Maker, Co-Founder",
   description:
-    "Swiss-based builder at the intersection of technology, knowledge management, and collaborative learning. Currently at Nespresso.",
+    "Swiss-based builder. Co-founder of EnÉquipe, selecting venues, activities and meals for corporate events across French-speaking Switzerland. Ten years at Nespresso before that. Open source and AI agents.",
   openGraph: {
     title: "Luca Perret",
     description:
-      "Builder at the intersection of technology, knowledge management, and collaborative learning.",
+      "Builder and co-founder of EnÉquipe. Open source, AI agents, and things I ship.",
     url: "https://lucaperret.ch",
     siteName: "Luca Perret",
     locale: "en_US",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Luca Perret",
     description:
-      "Builder at the intersection of technology, knowledge management, and collaborative learning.",
+      "Builder and co-founder of EnÉquipe. Open source, AI agents, and things I ship.",
     creator: "@lucaperret",
     site: "@lucaperret",
   },
@@ -47,10 +47,15 @@ const jsonLd = {
   "@type": "Person",
   name: "Luca Perret",
   url: "https://lucaperret.ch",
-  jobTitle: "Knowledge Management Expert",
+  jobTitle: "Co-Founder",
   worksFor: {
     "@type": "Organization",
-    name: "Nespresso",
+    name: "EnÉquipe",
+    url: "https://enequipe.ch",
+  },
+  alumniOf: {
+    "@type": "Organization",
+    name: "Nestlé Nespresso SA",
     url: "https://www.nespresso.com",
   },
   address: {
@@ -59,11 +64,12 @@ const jsonLd = {
     addressCountry: "CH",
   },
   knowsAbout: [
-    "Knowledge Management",
-    "Digital Transformation",
-    "Collaborative Learning",
+    "Corporate Events",
+    "Product Management",
     "AI Agents",
     "Full-Stack Development",
+    "Digital Transformation",
+    "Knowledge Management",
     "Innovation Coaching",
     "eCommerce",
     "Open Source",
@@ -75,7 +81,7 @@ const jsonLd = {
     "https://medium.com/@lucaperret",
   ],
   description:
-    "Swiss-based builder at the intersection of technology, knowledge management, and collaborative learning. Former full-stack developer with 10 years of experience, now leading digital capability transformation at Nespresso. Certified Front End Innovation Coach (Strategyzer). Open source contributor and AI agent builder.",
+    "Swiss-based builder and co-founder of EnÉquipe, which selects venues, activities and meals for corporate events across French-speaking Switzerland. Former full-stack developer, then ten years at Nespresso across eCommerce personalisation, data and knowledge management. Certified Front End Innovation Coach (Strategyzer). Open source contributor and AI agent builder.",
 };
 
 export default function RootLayout({

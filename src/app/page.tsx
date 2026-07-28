@@ -91,10 +91,18 @@ export default function Home() {
           Luca Perret
         </h1>
         <p className="text-lg text-muted leading-relaxed mb-6">
-          Builder at the intersection of technology, knowledge management, and digital transformation.
+          Builder at the intersection of technology, product, and things I ship myself.
           <br />
-          Currently driving digital capability transformation at{" "}
-          <span className="text-foreground font-medium">Nespresso</span> in Vevey, Switzerland.
+          Co-founder of{" "}
+          <a
+            href="https://enequipe.ch"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-foreground font-medium underline underline-offset-2 hover:text-muted transition-colors"
+          >
+            EnÉquipe
+          </a>
+          , based in Vevey, Switzerland.
         </p>
         <nav aria-label="Social links" className="flex gap-4">
           {LINKS.map(({ label, href, icon: Icon }) => (
@@ -137,16 +145,19 @@ export default function Home() {
           <p>
             I spent a decade as a full-stack developer — building eCommerce platforms,
             open source tools, and shipping side projects. Then I moved into digital
-            transformation, where I bring a product mindset to how organizations learn,
+            transformation, where I brought a product mindset to how organizations learn,
             innovate, and share knowledge.
           </p>
           <p>
-            At Nespresso, I&apos;ve worn several hats over 7 years — from frontend
-            innovation and eCommerce personalization to data strategy and now knowledge
-            management. Today I help experts co-create learning content, structure
-            communities of practice, and coach internal venture teams. I believe the real
-            advantage in the AI era won&apos;t be access to information — it will be our
-            ability to learn together and keep knowledge alive.
+            Ten years of that were at Nespresso, wearing several hats — from frontend
+            innovation and eCommerce personalization to data strategy and, latterly,
+            knowledge management. I left in June 2026 to build my own things.
+          </p>
+          <p>
+            Now I co-found EnÉquipe, which selects the venue, the activity and the meal
+            for corporate events across French-speaking Switzerland. We qualify each venue
+            one at a time, by calling them. It is unglamorous work, and it is the whole
+            point: the value sits in the data nobody else bothers to collect.
           </p>
           <p>
             Outside work, I practice Wing Chun, tinker with AI agents, and manage my
@@ -164,7 +175,11 @@ export default function Home() {
         <ul className="space-y-2 text-foreground/85">
           <li className="flex gap-2">
             <span aria-hidden="true" className="text-muted select-none">-</span>
-            Knowledge Management Expert at Nespresso (7 years and counting)
+            Co-founder of EnÉquipe — corporate events across French-speaking Switzerland
+          </li>
+          <li className="flex gap-2">
+            <span aria-hidden="true" className="text-muted select-none">-</span>
+            Opening Le Bon Bœuf, a Swiss pasture-beef burger truck, in September 2026
           </li>
           <li className="flex gap-2">
             <span aria-hidden="true" className="text-muted select-none">-</span>

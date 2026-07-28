@@ -2,16 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Luca Perret — Builder, Knowledge Management Expert",
+  title: "About Luca Perret — Builder, Co-Founder of EnÉquipe",
   description:
-    "Knowledge Management Expert at Nespresso. Former full-stack developer turned digital transformation builder in Vevey, Switzerland.",
+    "Co-founder of EnÉquipe, curating venues and activities for corporate events in French-speaking Switzerland. Former full-stack developer, ten years at Nespresso. Based in Vevey.",
   alternates: {
     canonical: "https://lucaperret.ch/about",
   },
   openGraph: {
-    title: "About Luca Perret — Builder, Knowledge Management Expert",
+    title: "About Luca Perret — Builder, Co-Founder of EnÉquipe",
     description:
-      "Swiss-based builder at the intersection of technology, knowledge management, and collaborative learning.",
+      "Swiss-based builder and co-founder of EnÉquipe. Open source, AI agents, and things I ship.",
     url: "https://lucaperret.ch/about",
     type: "website",
     images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Luca Perret" }],
@@ -34,22 +34,39 @@ export default function AboutPage() {
 
       <div className="space-y-6 text-foreground/85 leading-relaxed">
         <p>
-          I&apos;m Luca Perret, a builder based in Vevey, Switzerland. I work at
-          the intersection of technology, knowledge management, and
-          collaborative learning.
+          I&apos;m Luca Perret, a builder based in Vevey, Switzerland. I build my
+          own things now, after fifteen years building other people&apos;s.
+        </p>
+
+        <p>
+          I co-founded{" "}
+          <a
+            href="https://enequipe.ch"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-foreground transition-colors"
+          >
+            EnÉquipe
+          </a>
+          , which selects the venue, the activity and the meal for corporate
+          events across French-speaking Switzerland. Organising a team event eats
+          days: you call venues that never call back, you chase quotes, and you
+          still don&apos;t know whether the place is any good. So we built the
+          directory we wished existed, qualified one venue at a time. Not
+          scraped. Called.
         </p>
 
         <p>
           I spent a decade as a full-stack developer — building eCommerce
           platforms, open source tools, and shipping side projects. My approach
           has always been the same: ship early, learn fast, and iterate based on
-          real feedback. Then I moved into digital transformation, where I bring
-          a product mindset to how organizations learn, innovate, and share
-          knowledge.
+          real feedback. Then I moved into digital transformation, where I
+          brought a product mindset to how organizations learn, innovate, and
+          share knowledge.
         </p>
 
         <p>
-          At{" "}
+          I spent ten years at{" "}
           <a
             href="https://www.nespresso.com"
             target="_blank"
@@ -58,12 +75,11 @@ export default function AboutPage() {
           >
             Nespresso
           </a>
-          , I&apos;ve worn several hats over 7+ years — from frontend innovation
-          and eCommerce personalization to data strategy and now knowledge
-          management. Today I design peer learning programs, connect people across
-          departments and geographies, help experts co-create learning content,
-          and coach internal venture teams using innovation frameworks. I&apos;m a
-          certified Front End Innovation Coach (Strategyzer).
+          , wearing several hats — from frontend innovation and eCommerce
+          personalization to data strategy and, latterly, knowledge management. I
+          designed peer learning programs, helped experts co-create content, and
+          coached internal venture teams using innovation frameworks. I&apos;m a
+          certified Front End Innovation Coach (Strategyzer). I left in June 2026.
         </p>
 
         <p>
@@ -75,8 +91,17 @@ export default function AboutPage() {
         </p>
 
         <p>
-          Currently, I&apos;m focused on building AI agent tools and open source
-          projects. I shipped{" "}
+          Alongside EnÉquipe I&apos;m opening{" "}
+          <a
+            href="https://lebonboeuf.ch"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-foreground transition-colors"
+          >
+            Le Bon Bœuf
+          </a>
+          , a Swiss pasture-beef burger truck, in September 2026. And I keep
+          building AI agent tools and open source projects. I shipped{" "}
           <a
             href="https://tidal-cli.lucaperret.ch/"
             target="_blank"
