@@ -32,6 +32,11 @@ const LINKS = [
 
 const PROJECTS = [
   {
+    name: "EnÉquipe",
+    description: "Corporate event platform for French-speaking Switzerland — we select the venue, the activity and the meal, qualifying each place one call at a time",
+    href: "https://enequipe.ch",
+  },
+  {
     name: "tidal-cli",
     description: "Command-line tool and MCP server for Tidal music streaming — search, play, and control your music from the terminal or through AI agents",
     href: "https://tidal-cli.lucaperret.ch/",
@@ -102,7 +107,7 @@ export default function Home() {
           >
             EnÉquipe
           </a>
-          , based in Vevey, Switzerland.
+          , based in Bulle, Switzerland.
         </p>
         <nav aria-label="Social links" className="flex gap-4">
           {LINKS.map(({ label, href, icon: Icon }) => (
@@ -270,7 +275,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="pt-8 border-t border-border flex justify-between items-center">
         <p className="text-sm text-muted">
-          Vevey, Switzerland
+          Bulle, Switzerland
         </p>
         <Link href="/privacy" className="text-xs text-muted/60 hover:text-foreground transition-colors">
           Privacy

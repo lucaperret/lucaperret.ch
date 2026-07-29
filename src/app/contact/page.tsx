@@ -4,14 +4,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Contact Luca Perret — Get in Touch",
   description:
-    "Get in touch with Luca Perret via email, LinkedIn, GitHub, or X. Based in Vevey, Switzerland. Open to conversations about technology and collaboration.",
+    "Get in touch with Luca Perret via email, LinkedIn, GitHub, or X. Based in Bulle, Switzerland. Open to conversations about technology and collaboration.",
   alternates: {
     canonical: "https://lucaperret.ch/contact",
   },
   openGraph: {
     title: "Contact Luca Perret — Get in Touch",
     description:
-      "Reach out to Luca Perret via email or social media. Based in Vevey, Switzerland.",
+      "Reach out to Luca Perret via email or social media. Based in Bulle, Switzerland.",
     url: "https://lucaperret.ch/contact",
     type: "website",
     images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Luca Perret" }],
@@ -93,7 +93,7 @@ export default function ContactPage() {
           </p>
         </div>
 
-        <p className="text-muted text-sm">Vevey, Switzerland</p>
+        <p className="text-muted text-sm">Bulle, Switzerland</p>
       </div>
 
       <div className="space-y-6 text-foreground/85 leading-relaxed mt-12">
@@ -125,7 +125,7 @@ export default function ContactPage() {
             <div>
               <p className="font-medium">Where are you based?</p>
               <p className="text-muted">
-                Vevey, Switzerland — on the shores of Lake Geneva, between Lausanne and Montreux. I work from here, on the road across French-speaking Switzerland for EnÉquipe, and remotely on my open source projects.
+                Bulle, Switzerland — in the Gruyère region, canton of Fribourg, between Lausanne and Bern. I work from here, on the road across French-speaking Switzerland for EnÉquipe, and remotely on my open source projects.
               </p>
             </div>
             <div>

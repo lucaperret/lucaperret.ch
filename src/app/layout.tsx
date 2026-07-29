@@ -60,7 +60,7 @@ const jsonLd = {
   },
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Vevey",
+    addressLocality: "Bulle",
     addressCountry: "CH",
   },
   knowsAbout: [

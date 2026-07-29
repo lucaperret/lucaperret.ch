@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Luca Perret — Builder, Co-Founder of EnÉquipe",
   description:
-    "Co-founder of EnÉquipe, curating venues and activities for corporate events in French-speaking Switzerland. Former full-stack developer, ten years at Nespresso. Based in Vevey.",
+    "Co-founder of EnÉquipe, curating venues and activities for corporate events in French-speaking Switzerland. Former full-stack developer, ten years at Nespresso. Based in Bulle.",
   alternates: {
     canonical: "https://lucaperret.ch/about",
   },
@@ -34,7 +34,7 @@ export default function AboutPage() {
 
       <div className="space-y-6 text-foreground/85 leading-relaxed">
         <p>
-          I&apos;m Luca Perret, a builder based in Vevey, Switzerland. I build my
+          I&apos;m Luca Perret, a builder based in Bulle, Switzerland. I build my
           own things now, after fifteen years building other people&apos;s.
         </p>
 
